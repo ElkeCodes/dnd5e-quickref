@@ -130,7 +130,7 @@ data_action = [
   {
     title: "Hide",
     icon: "hood",
-    subtitle: "",
+    subtitle: "Use your stealthiness",
     description: "Attempt to hide",
     reference: "PHB, pg. 192.",
     bullets: [
@@ -144,7 +144,7 @@ data_action = [
   {
     title: "Search",
     icon: "magnifying-glass",
-    subtitle: "",
+    subtitle: "Investigate your surroundings",
     description: "Devote your attention to finding something",
     reference: "PHB, pg. 193.",
     bullets: [
@@ -197,6 +197,13 @@ data_action = [
     title: "Talk",
     icon: "conversation",
     subtitle: "Converse for maximum 2 full sentences",
+    description: "Text should fit within the time of 1 turn.",
+    bullets: [],
+  },
+  {
+    title: "Disarm",
+    icon: "fall-down",
+    subtitle: "Knock weapon or item out of enemy's grasp",
     description: "Text should fit within the time of 1 turn.",
     bullets: [],
   },

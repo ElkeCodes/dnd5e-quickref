@@ -1,6 +1,6 @@
 data_movement = [
   {
-    title: "Move",
+    title: "Run",
     icon: "run",
     subtitle: "Cost: 5ft per 5ft",
     description: "Movement cost: 5ft per 5ft moved",
@@ -66,7 +66,7 @@ data_movement = [
   {
     title: "High jump",
     icon: "wingfoot",
-    subtitle: "Cost: 5ft per 5ft",
+    subtitle: "Cost: 5ft per 5ft, move 10+ft, (3 + STR)ft",
     description: "Movement cost: 5ft per 5ft jumped",
 
     reference: "PHB, pg. 182.",
@@ -80,7 +80,20 @@ data_movement = [
   {
     title: "Long jump",
     icon: "wingfoot",
-    subtitle: "Cost: 5ft per 5ft",
+    subtitle: "Cost: 5ft per 5ft, move 10+ft, (STR)ft",
+    description: "Movement cost: 5ft per 5ft jumped",
+    reference: "PHB, pg. 182.",
+    bullets: [
+      "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
+      "When you make a standing long jump, you can leap only half that distance",
+      "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
+      "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check.",
+    ],
+  },
+  {
+    title: "Standing long/high jump",
+    icon: "wingfoot",
+    subtitle: "Half distance of long/high jump",
     description: "Movement cost: 5ft per 5ft jumped",
     reference: "PHB, pg. 182.",
     bullets: [
